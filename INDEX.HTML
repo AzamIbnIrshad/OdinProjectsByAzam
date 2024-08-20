@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg_img"></div>
+    <div id="combined"></div>
+    <div id="front">
+
+      <!-- First Shelf -->
+      <div class="shelves">
+        <div id="0" class="bookWrapper">
+        </div>
+      </div>
+
+      <div class="shelves">
+        <div id="1" class="bookWrapper">
+        </div>
+      </div>
+
+      <div class="shelves">
+        <div id="2" class="bookWrapper">
+          
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div id="front2">
+      
+      <!-- Second Shelf -->
+      <div class="shelves">
+        <div id="3" class="bookWrapper"></div>
+      </div>
+      <div class="shelves">
+        <div id="3" class="bookWrapper"></div>
+      </div>
+      <div class="shelves">
+        <div  id="5" class="bookWrapper"></div>
+      </div>
+    </div>
+    <div id="combined2"></div>
+    <div id="maze">
+      <div class="books" id="book1"><h3>List of Your Books</h3>
+      
+          <ol id="list">
+
+
+          </ol>
+      </div>
+      <div class="books" id="book2"></div>
+      <div class="books" id="book3"></div>
+    </div>
+    <dialog id="bookDialog">
+      <div id="form">
+        <form action="" id="formForSubmission">
+          <label for="author">Author</label>
+          <input type="text" name="Author" id="Author" />
+    
+          <label for="title">Title</label>
+          <input type="text" name="title" id="title" />
+    
+          <label for="pages">Pages</label>
+          <input type="text" name="pages" id="pages" />
+    
+          <label for="">Have You read?</label>
+          
+          <div id="radio">
+          <label for="Yes">Yes</label>
+          <input type="radio" name="read" id="Yes" value="yes"  checked/>
+    
+          <label for="No">No</label>
+          <input type="radio" name="read" id="No" value="no" />
+        </div>
+        <input type="submit" value="Submit">
+        <div id="formButtons">
+            <button autofocus id="closeButton" type="button">Close</button>
+          </div>
+        </form>
+      </div>
+    
+    </dialog>
+    <button id="addButton" style="background: transparent; font-size: large; color: white;  transform: translateX(50%) translateY(20%); " >Add Book</button>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
